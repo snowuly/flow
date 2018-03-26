@@ -1,0 +1,54 @@
+.cnt {
+	position: relative;
+}
+
+.node {
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	width: 90px;
+	overflow: visible;
+	white-space: nowrap;
+	header {
+		margin: auto;
+		border-radius: 50%;
+		background-color: blue;
+		padding: 20px 5px;
+		width: 70px;
+		height: 40px;
+		p {
+			color: #fff;
+			line-height: 20px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+	}
+	footer {
+		time {
+			color: #666;
+			font-size: 12px;
+		}
+	}
+}
+.hline {
+	position: absolute;
+	height: 0;
+	border-top: 1px dotted #333;
+}
+.vline {
+	position: absolute;
+	width: 0;
+	border-left: 1px dotted #333;
+}
+
+.arrow {
+	position: absolute;
+	right: -5px;
+	top: -3px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid #333;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	border-right: none;
+}
